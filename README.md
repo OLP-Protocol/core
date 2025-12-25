@@ -1,17 +1,17 @@
 
-# 🛡️ OLP Protocol - Privacy-Preserving Location Verification
+# OLP Protocol - Privacy-Preserving Location Verification
 
 
 *A zero-knowledge framework for proving location without revealing it*
 
-## 🔍 Overview
+## Overview
 The OLP Protocol enables:
-- 📍 **Privacy-preserving location proofs** using ZK-SNARKs
-- 🌐 **Decentralized witness verification** with BLS threshold signatures
-- ⏱️ **Non-repudiable timestamps** via cryptographic commitments
-- 🔒 **Differential privacy** guarantees for metadata protection
+-  **Privacy-preserving location proofs** using ZK-SNARKs
+-  **Decentralized witness verification** with BLS threshold signatures
+-  **Non-repudiable timestamps** via cryptographic commitments
+-  **Differential privacy** guarantees for metadata protection
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Rust 1.65+ (`rustup install stable`)
@@ -32,7 +32,7 @@ cargo test -- --test-threads=1
 cargo run --example basic_proof
 ```
 
-## 🧩 Core Components
+##  Core Components
 
 | Component          | Description                          | Tech Stack          |
 |--------------------|--------------------------------------|---------------------|
@@ -41,7 +41,7 @@ cargo run --example basic_proof
 | **CLI Tool**       | Developer interface                  | Clap + Tokio        |
 | **Crypto Primitives**| Pedersen commitments, signatures  | curve25519-dalek    |
 
-## 📚 Documentation
+##  Documentation
 
 ### Protocol Phases
 1. **Commitment**  
@@ -62,7 +62,7 @@ let proof = generate_proof(
 )?;
 ```
 
-## 🛠️ Development
+##  Development
 
 ### Build Features
 ```toml
@@ -88,10 +88,10 @@ cargo bench
 cargo fuzz run proof_validation
 ```
 
-## 📜 License
+##  License
 Apache 2.0 - See [LICENSE](LICENSE)
 
-## 🤝 Contributing
+##  Contributing
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing`)
 3. Submit a pull request
@@ -102,7 +102,7 @@ Apache 2.0 - See [LICENSE](LICENSE)
 > - Reference implementation
 > - Security analysis
 
-## 📫 Contact
+##  Contact
 [research@olpprotocol.com](mailto:research@olpprotocol.com)  
 [contact@subhadipmitra.com](mailto:subhadipmitra.com)  
 [@olp_protocol](https://twitter.com/olpprotocol)
